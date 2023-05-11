@@ -1,4 +1,4 @@
-function Player({name}={}){
-    this.name = name;
-    
-};
+export default function Player({ name, playerCards } = {}) {
+  this.name = name;
+  this.playerCards = [];
+}
