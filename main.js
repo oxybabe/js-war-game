@@ -1,3 +1,8 @@
-// import Deck from "./deck.js"
-// const deck = new Deck();
-// deck.createDeck();
+import Game from "./game.js"
+
+const game = new Game();
+game.deck.shuffle();
+
+
+
+console.log({game})

@@ -1,4 +1,4 @@
-import deck from "./deck.js";
+import Deck from "./deck.js";
 import Player from "./player.js";
 
 function Game() {
@@ -6,7 +6,9 @@ function Game() {
   this.player2 = new Player({ name: "West" });
   this.deck = new Deck(); // will have a property of cards
 }
-function shuffleDeck() {}
 
-deck.prototype.dealCards = function () {};
-const game = new Game();
+
+export default Game;
+
+// deck.prototype.dealCards = function () {};
+// const game = new Game();

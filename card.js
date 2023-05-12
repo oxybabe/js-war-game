@@ -16,3 +16,14 @@ export default function Card({ value, suit }) {
 // })
 
 // const deck = new Deck();
+
+
+// export default function Card(obj) {
+//   this.value = obj.value;
+//   this.suit = obj.suit;
+
+//   //use looping to loop through some values, array of suits, array of values, loop through the arrays,
+//   //inside the Deck constructor, create the cards and push it into the cards property
+// };
+
+// const { value, suit } = obj;
