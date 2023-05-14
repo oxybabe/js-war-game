@@ -9,7 +9,7 @@ export default function Deck() {
     for (let j = 0; j < values.length; j++) {
       this.cards.push(new Card({suit: suits[i], value: values[j]})); // deconstructing the cards to put into the new Cards array
     }
-    this.hand = [];
+    // this.hand = [];
   }
  
 }
