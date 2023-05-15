@@ -7,9 +7,9 @@ export default function Deck() {
   // https://www.w3docs.com/snippets/javascript/how-to-loop-through-an-array-in-javascript.html
   for (let i = 0; i < suits.length; i++) { 
     for (let j = 0; j < values.length; j++) {
-      this.cards.push(new Card({suit: suits[i], value: values[j]})); // deconstructing the cards to put into the new Cards array
+      this.cards.push(new Card({suit: suits[i], value: values[j]})); 
+      // deconstructing the cards to put into the new Cards array
     }
-    // this.hand = [];
   }
  
 }
@@ -18,7 +18,8 @@ export default function Deck() {
 Deck.prototype.shuffle = function () {
   // https://www.tutorialspoint.com/How-to-randomize-shuffle-a-JavaScript-array
   for (let i = this.cards.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i+1)); // "this" is the deck object(the instance) and cards(the property) is the array
+    var j = Math.floor(Math.random() * (i+1)); 
+    // "this" is the deck object(the instance) and cards(the property) is the array
     [this.cards[i], this.cards[j]] = [this.cards[j], this.cards[i]];
   }
 };

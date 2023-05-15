@@ -9,10 +9,4 @@ export default function Card({ value, suit }) {
 
 // const deck = new Deck();
 
-
-// export default function Card(obj) {
-//   this.value = obj.value;
-//   this.suit = obj.suit;
-
-
 // const { value, suit } = obj;
