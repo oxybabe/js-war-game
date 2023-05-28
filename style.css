@@ -1,8 +1,46 @@
-h1 {
-    text-align: center;
-}
 body {
-    background-image:url(play cards.jpeg)
-    
+  background-image: url(card-background.png);
+}
 
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(8, 29, 181);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+.name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: rgb(8, 29, 181);
+  font-size: 30px;
+}
+#hand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: rgb(2, 82, 34);
+  font-size: 30px;
+}
+
+.player1 {
+  display: flex;
+  border: solid 6px red;
+  float: right;
+}
+.player2 {
+  display: flex;
+  border: solid 6px rgb(25, 0, 255);
+  float: left;
+}
+.playButton {
+  display: flex;
+  margin: 45%;
+  margin-top: 5%;
+}
+.text {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: rgb(2, 82, 34);
+  font-size: 30px;
 }

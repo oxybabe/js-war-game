@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>War Game</title>
-    <link rel="stylesheet" href="./style.css">
-    
-</head>
-<h1>Card War Game</h1>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <h1>Card War Game</h1>
+  <body>
     <div class="player1">
-        <div class="name"Elia></div>
-        <div class="hand">26</div>
+      <div id="elia" class="name">Elia</div>
+      <div id="hand" class="elia-hand"></div>
+      <div class="elia-card-slot"></div>
     </div>
+    <div class="text"></div>
     <div class="player2">
-        <div class="name">West</div>
-        <div class="hand">26</div>
+      <div id="west" class="name">West</div>
+      <div id="hand" class="west-hand"></div>
+      <div class="West-card-slot"></div>
     </div>
-<button id="PlayButton">Play</button>
+    <button class="playButton" id="playButton-2">Play</button>
     <script src="main.js" type="module"></script>
-</body>
+  </body>
 </html>
